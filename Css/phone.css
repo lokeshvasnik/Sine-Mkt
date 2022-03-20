@@ -1,0 +1,112 @@
+@media (max-width: 900px) {
+  .mid__box a {
+    display: none;
+  }
+}
+
+@media (max-width: 1074px) {
+  .mid__box a {
+    display: none;
+  }
+
+  .featuredContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .featured__product img {
+    width: 100%;
+  }
+
+  .brands img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  .boxes {
+    max-width: 100%;
+    margin: 58px 0px;
+  }
+  .main__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .email__bar i {
+    left: 85%;
+  }
+
+  .all__info {
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 760px) {
+  #header {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .showcase {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .cards {
+    display: flex;
+  }
+
+  .cards img {
+    width: 100%;
+  }
+
+  #hero {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .chairs {
+    width: 100%;
+    margin-top: 56px;
+  }
+}
+
+@media (max-width: 320px) {
+  .left__side a {
+    padding: 8px 15px;
+  }
+
+  .cards img {
+    width: 35%;
+  }
+  .cards {
+    background-color: #f8f9fc;
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .showcase {
+    justify-content: center;
+
+    flex-direction: column;
+  }
+
+  .showcase__row2 {
+    justify-content: center;
+
+    flex-direction: column;
+  }
+}
